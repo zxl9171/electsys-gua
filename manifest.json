@@ -1,0 +1,20 @@
+﻿{ 
+   "name": "交大成绩刮刮卡", 
+   "version": "1.2.3", 
+   "manifest_version": 2,
+  "update_url": "https://electsysgua-chiccode.rhcloud.com/updateinfo.xml",
+  "homepage_url": "http://blog.renren.com/blog/278288416/892816831",
+   "icons":  
+   {  "128": "icon.jpeg",
+        "48": "icon.jpeg",
+        "16": "icon.jpeg"},
+   "description": "给不敢看成绩的同学们带来福音(创意来源于网络，仅供测试，制作者不承担任何法律责任)。",
+   "permissions": ["tabs", "http://electsys.sjtu.edu.cn/","notifications"],
+   "background": {
+   "scripts": ["jquery.js","app.js","background.js"]
+ 	},
+   "browser_action": { 
+      "default_popup": "list.html",
+      "default_icon":"icon.jpeg"
+   }
+}
